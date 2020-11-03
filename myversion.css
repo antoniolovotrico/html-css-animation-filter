@@ -73,7 +73,11 @@
     transform: scale(1.5);
 }
 
-
-
-
-
+.ex-10-icon {
+    animation: rotate 2s infinite linear;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(2turn);
+    }
+}
