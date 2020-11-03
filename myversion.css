@@ -35,7 +35,7 @@
 }
 
 .ex-5-square:hover {
-    transform: scale(2);git  
+    transform: scale(2);
 }
 
 .ex-5-square:active {
@@ -60,8 +60,20 @@
 
 .ex-8-img:hover {
     border-radius: 20px;
-    filter: saturate(0);
+    filter: saturate(0.3);
 }
+
+.ex-9-img {
+    transition: ease-in-out 1s;  
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: saturate(0.2);
+    transform: scale(1.5);
+}
+
+
 
 
 
