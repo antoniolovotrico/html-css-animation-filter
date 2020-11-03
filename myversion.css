@@ -45,3 +45,14 @@
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+.ex-7-img {
+    transition: ease-in-out 2s;  
+}
+
+.ex-7-img:hover {
+    filter: sepia(1);
+}
+
+
+
